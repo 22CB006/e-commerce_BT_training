@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+.header{
+    background: #162A2C;
+    color: #ffffff;
+    height: 100px;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    
+    background-color:#EFE7DA;
+}
+.card{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0;
+    background-color: #F5F5F5;
+    position: relative;
+    
+
+}
+.card-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.user-profile{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #c9e6f5;
+    position: absolute;
+    right: 20px;
+
+}
+
+.user-profile .profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.msg
+{
+    position: absolute;
+    right: 100px;
+    
+}
+.carot img{
+    width: 15px;
+}
+
+.heading{
+    font-size: 30px;
+    color: rgb(21, 22, 22);
+}
+.nav
+{
+    position: absolute;
+    right:700px;
+}
+.nav a{
+    color: white;
+    font-size: larger; 
+    text-decoration: none; 
+}
+.nav a:hover,.nav a:active
+{
+    color: black;
+    transform: scale(0.5);
+}
+.msg
+{
+    position: absolute;
+    right: 100px;
+    
+}
+.logo-container
+{
+    height: 80px;
+}
+.logo-container img{
+    height: 100%;
+   
+
+}
+.logo-container,.nav,.user-profile{
+    display: inline-block;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.item-title{
+    width: 70%;
+    padding: 20px 10px;
+}
+
+.btn-primary{
+    width: 100px;
+    height: 20px;
+    background: #A9B388;
+    color:black;
+    border: 0;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: rgb(34, 3, 34);
+    color: white;
+}
+.card{
+    display: inline-block;
+}
+.like{
+    position: absolute;
+    right: 20px;
+    
+}
